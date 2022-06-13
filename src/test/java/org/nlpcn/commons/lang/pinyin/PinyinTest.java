@@ -56,10 +56,8 @@ public class PinyinTest {
 	 */
 	@Test
 	public void testPinyinStr() {
-		List<String> result = Pinyin.pinyin(str);
-		System.out.println(result);
-		Assert.assertEquals(result.size(), str.length());
-
+		List<String> 行情 = Pinyin.pinyin("行情");
+		System.out.println(行情);
 	}
 
 	/**
